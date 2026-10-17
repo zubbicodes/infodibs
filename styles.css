@@ -782,6 +782,7 @@ main { min-height: calc(100vh - 78px); }
 .footer-social a {
   width: 42px;
   height: 42px;
+  padding: 13px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -803,9 +804,10 @@ main { min-height: calc(100vh - 78px); }
   box-shadow: 0 4px 16px var(--color-footer-glow);
 }
 .footer-social a svg {
-  width: 19px;
-  height: 19px;
+  width: 15px;
+  height: 15px;
   display: block;
+  flex-shrink: 0;
 }
 .footer-form { display: grid; gap: var(--space-sm); }
 .footer-form input { background: var(--color-footer-panel); color: var(--color-footer-ink); border-color: var(--color-footer-rule); }
